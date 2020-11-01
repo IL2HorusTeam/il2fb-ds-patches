@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ### Usage synopsis
 
-``` shell
+```
 usage: il2fb_download_ds.py [-h] [-v VERSION_SPEC [VERSION_SPEC ...]]
                             [--with-zip] [--no-zip] [--with-exe] [--no-exe]
                             [-o OUTPUT_DIR]
