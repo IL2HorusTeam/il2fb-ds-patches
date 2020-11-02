@@ -19,7 +19,7 @@ Docker images are available as [``il2horusteam/il2ds``](https://hub.docker.com/r
 
 ## Downloader
 
-This repository contains a downloader of server's patches ``il2fb_download_ds.py``.
+This repository contains a downloader of server's patches ``downloader/il2fb_download_ds.py``.
 
 The downloader allows to fetch both ``EXE`` and ``ZIP`` versions of patches.
 
@@ -30,8 +30,8 @@ Depends on Python 3.7+.
 
 The downloader runs as a local script, hence clone this repo or download the following files:
 
-* ``il2fb_download_ds.py``
-* ``requirements.txt``
+* ``downloader/il2fb_download_ds.py``
+* ``downloader/requirements.txt``
 
 Installation of dependencies:
 
@@ -138,4 +138,4 @@ Download ``ZIP`` patches of versions '4.11.1' and '4.10.1':
 
 ### Preview
 
-![Downloader preview](./downloader.png?raw=true "Downloader preview")
+![Downloader preview](./downloader/preview.png?raw=true "Downloader preview")
