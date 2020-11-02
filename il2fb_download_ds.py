@@ -319,7 +319,7 @@ async def run(
 ) -> None:
 
   releases_info = await get_releases_info(http_session)
-  log.info("awailable versions: %s", ", ".join(sorted(map(repr, releases_info.keys()))))
+  log.info("available versions: %s", ", ".join(sorted(map(repr, releases_info.keys()))))
 
   releases_info = filter_releases_info(releases_info, version_specs)
 
